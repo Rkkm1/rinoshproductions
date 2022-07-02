@@ -3,15 +3,484 @@
   padding: 0;
   box-sizing: border-box;
 }
+.about-us{
+  padding: 25px;
+  display: flex;
+  justify-content: space-between;
+}
 
-.App {
+.about-us-left {
+  text-align: left;
+  padding-left: 250px;
+  padding-right: 250px;
+}
+.about-us-left h1{
+  font-size: 48px;
+
+
+
+}
+.about-us-right{
+  padding-right: 61px;
+  padding-top: 69px;
+}
+.about-us-right img{
+  
+  width: 492px;
+  height: 297px;
+  border: 10px solid whitesmoke;
+  border-radius: 38px;
+  box-shadow: 3px 3px 25px #093542; 
+ 
+
+}
+.Events {
+  padding-bottom: 30px;
+}
+
+.Events h1{
+  font-size: 48px;
+}
+
+
+
+.row{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+
+
+}
+.col{
+  border: 1px solid gray;
+  border-radius: 12px;
+  box-shadow: 2px 2px 30px gray;
+}
+.col p{
+  font-size: 14px;
+  
+  width: 385px;
+}
+.col img{
+  width: 386px;
+  height: 141px;
+}
+
+.btn{
+  padding-top: 8px;
+  background-color: #093542;
+  width: 131px;
+  height: 37px;
+  border-radius: 8px
+ 
+}
+.Register-btn{
+  color: white;
+
+}
+.btn a{
+  
+  text-decoration: none;
+}
+.btn-main{
+  padding-top: 85px;
+  padding-left: 134px;
+
+}
+.Events td,th{
+  margin-right: 10px;
+  text-align: left;
+}
+.Events table{
+  width: 70%;
+  margin-left: 10px;
+
+
+}
+.FAQs{
+  margin: 20px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 30px gray;
+  padding-bottom: 25px;
+
+}
+
+
+
+.FAQs h1{
+  padding-top: 15px;
+  font-size: 48px;
+
+}
+.bar{
+  height: 35px;
+  padding-left: 25px;
+  padding-right: 25px;
+  margin: 25px;
+  display: flex;
+  border: 1px solid black;
+  border-radius: 5px;
+  justify-content: space-between;
+
+}
+.bar img{
+  width: 10px;
+}
+.bar h4{
+  padding-top: 5px;
+ margin: 0;
+ font-size: 15px;
+}
+
+
+
+.upfoot{
+  display: flex;
+  justify-content: space-between;
+  padding:45px ;
+ 
+  width:90%;
+  top: 0;
+
+}
+.footer{
+  background-color: #1C4551;
+  
+}
+.footer-links{
+  margin-top: 3px;
+  
+  
+}
+.footer a{
+  text-decoration: none;
+  margin-left: 28px;
+  
+}
+.footer-links a{
+  color: white;
+}
+
+.footer{
+
+  padding-top: -50px;
+}
+
+
+.foot{
+  display: flex;
+  justify-content: space-between;
+}
+
+.right img{
+  padding: 10px 10px;
+}
+.left p{
+  width: 700px;
+  height: 120px;
+  color: white;
+  text-align: left;
+}
+.left {
+  margin-left: 5%;
+  padding-top: 1px;
+  padding-bottom: 23px;
+}
+.bottom{
+  background-color: #093542;
+  color: white;
+  text-align: center;
+  padding:1px;
+}
+.Main_page{
+  padding-top: 45px;
+  margin: 25px;
+  display: flex;
+  justify-content: space-between;
+
+}
+.Main_page h1{
+  padding: left 25px; ;
+  font-size: 65px;
+  text-align: left;
+}
+.Main_page-right img{
+  width: 568px;
+  height: 568px;
+}
+.Main_page-left h3{
+  color: gray;
+  text-align: left;
+  padding-left: 25px;
+}
+.Navbar{
+  margin-left: 25px;
+  display: flex;
+  justify-content: space-between;
+  padding:45px ;
+  position:fixed;
+  background-color: white;
+  top: 0;
+  width: 90%;
+  box-shadow:1px 1px 30px ;
+  border-radius: 25px; 
+}
+.Navbar-links{
+  margin-top: 3px;
+  
+  
+}
+.Navbar a{
+  text-decoration: none;
+  margin-left: 28px;
+  
+}
+.Navbar-links a{
+  color: #093542;
+}
+
+.Navbar-btn{
+
+  box-shadow: 3px 3px 25px #093542; 
+  background-color: #093542;
+  width: 114px;
+  height: 37px;
+  border-radius: 12px
+}
+.Login-btn{
+  color: white;
+
+}
+.Navbar-btn img{
+  padding-top: 10px;
+  width: 13px;
+  height: 11px;
+}
+.our-fea h1{
+  font-size: 48px;
+
+}
+
+.our-fea-row{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.our-fea-col{
+  width: 50%;
+
+}
+.our-fea-col p{
+  width: 325px;
+  padding-left: 260px;
+ 
+  
+}
+.our-fea-col img{
+  width: 100px;
+  height: 105px;
+}
+.banner{
+  margin: 25px;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border: 2px solid whitesmoke;
+  border-radius: 20px;
+  box-shadow: 3px 3px 30px;
+}
+.banner-left{
+  padding-top:  125px; ;
+}
+.banner h2{
+  font-size: 45px;
+}
+.banner p{
+  font-size: 25px;
+}
+.vision{
+  display: flex;
+  background-color: #F4F4F5;
+  
+}
+
+.right{
+  margin-top: 1%;
+  width: 50%;
+  margin-left: 5%;
+}
+
+.right h1{
+  font-size: 40px;
+  font-family: 'Proxima Nova';
+  color: #000000;
+}
+
+.right p{
+  font-size: 24px;
+}
+
+.left{
+  margin-left: 5%;
+  padding-top: 60px;
+}
+.partners{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color:  #E9F3F3;
+  border-radius: 40px;
+}
+.partners h1{
+  font-size: 48px;
+}
+
+.our-row{
+  padding-left: 10%;
+  width: 75%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.our-image img{
+  margin-top: 20px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+  padding-top: 4px;
+}
+.info-bar{
+  padding-top: 70px;
+  padding-bottom: 40px;
+  background-color:whitesmoke;
+}
+.info-bar span{
+  font-size: 26px;
+  color: gray;
+}
+.info-bar h1{
+  font-size: 35px;
   text-align: center;
 }
+.info-bar-box{
+display: flex ;
+justify-content: space-around;
+border-radius: 50px;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
+.Partners{
+  background-color: white;
+}
+
+.head h1{
+  font-size: 48px;
+  height: 48px; 
+  padding-top: 30px;
+}
+
+.image{
+  flex-wrap: wrap;
+  display: flex;
+  margin-top: 5%;
+  width: 80%;
+  padding-left: 150px;
+  
+}
+
+.image img{
+  padding: 40px 25px;
+  margin-left: 45px;
+
+}
+.program_offered{
+  padding: 30px;
+  padding-left: 15px;
+}
+.program_offered h1{
+  font-size: 48px;
+  font-weight: 100px;
+
+}
+.program_offered_row{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.program_offered_col p{
+  width: 390px;
+  font-size: 18px;
+  text-align: center;
+  
+
+}
+.program_offered_col{
+  margin:15px ;
+  padding-bottom: 15px;
+  padding-top: 15px;
+ 
+  
+}
+.program_offered_col img{
+  width: 58px;
+  height: 58px;
+}
+.Testimonials{
+  text-align: center;
+  background-color: white;
+  padding-top: 25px;
+  padding-bottom: 45px;
+  border: 1px solid gray;
+  border-radius: 25px;
+  box-shadow: 2px 2px 30px black;
+  margin: 25px;
+}
+.testi-row h3{
+ text-align: justify;
+
+}
+.testi-row{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 35px;
+  padding-right: 100px;
+  padding-left: 100px;  
+  padding-bottom: 24px;
+  text-align: left;
+ 
+}
+.testi-col{
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ width: 417px ;
+ height:323px ;
+ border-radius: 25px;
+ background-color: whitesmoke;
+ box-shadow: 0px 1px 5px black;
+ transition: all 300ms ease-in-out;
+ padding: 25px;
+ margin-right: 24px;
+
+ 
+}
+.testi-col:hover{
+ width: 418 ;
+ height: 323 ;
+ box-shadow: 0px 3px 30px;
+
+}
+
+.testi-row img{
+  height: 125px; ;
+  width: 125px;
+  border-radius: 50%;
+  padding: 2px;
+  object-fit: cover;
+  border: 2px solid whitesmoke;
+
+}
+.testi-col:hover  img {  border: 2px solid salmon;}
+
+
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
