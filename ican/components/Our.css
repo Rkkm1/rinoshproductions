@@ -1,0 +1,41 @@
+.partners{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color:  #E9F3F3;
+    border-radius: 40px;
+}
+.partners h1{
+    font-size: 48px;
+}
+
+.our-row{
+    padding-left: 10%;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.our-image img{
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    padding-top: 4px;
+}
+.info-bar{
+    padding-top: 70px;
+    padding-bottom: 40px;
+    background-color:whitesmoke;
+}
+.info-bar span{
+    font-size: 26px;
+    color: gray;
+}
+.info-bar h1{
+    font-size: 35px;
+    text-align: center;
+}
+.info-bar-box{
+display: flex ;
+justify-content: space-around;
+border-radius: 50px;
+
+}

@@ -1,0 +1,32 @@
+.program_offered{
+    padding: 30px;
+    padding-left: 15px;
+}
+.program_offered h1{
+    font-size: 48px;
+    font-weight: 100px;
+
+}
+.program_offered_row{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.program_offered_col p{
+    width: 390px;
+    font-size: 18px;
+    text-align: center;
+    
+
+}
+.program_offered_col{
+    margin:15px ;
+    padding-bottom: 15px;
+    padding-top: 15px;
+   
+    
+}
+.program_offered_col img{
+    width: 58px;
+    height: 58px;
+}
