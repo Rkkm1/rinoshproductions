@@ -1,0 +1,64 @@
+.Events {
+    padding-bottom: 30px;
+}
+
+.Events h1{
+    font-size: 48px;
+}
+
+
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+
+  
+}
+.col{
+    border: 1px solid gray;
+    border-radius: 12px;
+    box-shadow: 2px 2px 30px gray;
+}
+.col p{
+    font-size: 14px;
+    
+    width: 385px;
+}
+.col img{
+    width: 386px;
+    height: 141px;
+}
+
+.btn{
+    padding-top: 8px;
+    background-color: #093542;
+    width: 131px;
+    height: 37px;
+    border-radius: 8px
+   
+}
+.Register-btn{
+    color: white;
+
+}
+.btn a{
+    
+    text-decoration: none;
+}
+.btn-main{
+    padding-top: 85px;
+    padding-left: 134px;
+
+}
+.Events td,th{
+    margin-right: 10px;
+    text-align: left;
+}
+.Events table{
+    width: 70%;
+    margin-left: 10px;
+
+
+}
